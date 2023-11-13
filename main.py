@@ -2,7 +2,7 @@ import requests
 import logging
 from datetime import datetime, timezone, timedelta
 from icalendar import Calendar
-from telegram import Update, ParseMode
+from telegram import Update
 from telegram.ext import  CommandHandler, CallbackContext, Updater, ConversationHandler , MessageHandler , Filters
 import json
 from pathlib import Path
